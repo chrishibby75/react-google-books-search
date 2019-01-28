@@ -1,29 +1,14 @@
 # NYT Google Books Search
 
-## About This Boilerplate
+## Overview
+This app allows the user to search for books via Google and then save any books of interest.  You may also view any book that you like and this will direct you to the Google page for that specific book.  
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Details
+This is a MERN app using React.js, MongoDB, Express and Node.  In the developer environment, it runs off of two local servers concurrently.  It renders components for the front end and uses a series of API calls to connect on the back end.  Click [here](https://github.com/chrishibby75/react-google-books-search) to view the code.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Experience the App
 
-## Starting the app locally
+[HERE](https://nyt-google-books-search0706.herokuapp.com/)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
 
-```
-yarn install
-```
 
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-yarn start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
